@@ -7,5 +7,4 @@ exports.render = function(req, res)
 {
 
     res.render('./pages/error/error', { title: 'ModuloCMS',module:module });
-    res.render('./pages/home/index', { title: 'ModuloCMS',module:module });
 }

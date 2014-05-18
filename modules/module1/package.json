@@ -12,29 +12,7 @@
   "author": "Mostafa Eweda <mostafa@c9.io>",
   "license": "MIT",
   "readMe": "",
-  
-//  _____       _             __               
-// |_   _|     | |           / _|              
-//   | |  _ __ | |_ ___ _ __| |_ __ _  ___ ___ 
-//   | | | '_ \| __/ _ \ '__|  _/ _` |/ __/ _ \
-//  _| |_| | | | ||  __/ |  | || (_| | (_|  __/
-// |_____|_| |_|\__\___|_|  |_| \__,_|\___\___|
 
-  "controler":"module_ctrljs, // if not exist ejs call by default
-  "template":"module1" //by default name of module
-  "css":"module1" //by default name of module
-  "design_js":"module1_design" //by default name of module+_design
-  "js":"module1_client" //by default name of module 
-  
-  "variable": { // lien vers une variable d'un model'
-      0
-  }, 
-  "function": { // function posibility call
-      
-  }, 
-  "event": { //event dispatch
-      
-  },
   
 //  _____                            _                 _           
 // |  __ \                          | |               (_)          

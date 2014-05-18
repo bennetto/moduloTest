@@ -1,0 +1,5 @@
+{
+    "ejs":"index.ejs",
+    "controller":"indexPage",
+    "routePath":"/page1"
+}

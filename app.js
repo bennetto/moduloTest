@@ -4,7 +4,7 @@
 var express = require('express');
 var path = require('path');
 var logger = require('morgan');
-var routes = require('./pages/routes');
+var routes = require('./core/server/routePage');
 //var restRoutes = require('./server/ressources/rest/restRoutes');
 
 var app = express();
