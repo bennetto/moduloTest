@@ -25,6 +25,7 @@ app.set('view engine', 'ejs');
 app.use(logger('dev'));
 app.use("/client",express.static(path.join(__dirname, 'client')));
 app.use("/modules",express.static(path.join(__dirname, 'modules')));
+app.use("/pages",express.static(path.join(__dirname, 'pages')));
 //     _____             _       ______ _ _
 //    |  __ \           | |     |  ____(_) |
 //    | |__) |___  _   _| |_ ___| |__   _| | ___
