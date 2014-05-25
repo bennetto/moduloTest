@@ -1,18 +1,18 @@
 /**
  * Created by benjamin on 18/05/2014.
  */
-var fs = require("fs");
+var fs = require('fs');
 var express = require('express');
 var router = express.Router();
 
-fs.readdir("pages",function(error,directoryObject) // read modules file
+fs.readdir(__dirname +"/../../pages",function(error,directoryObject) // read modules file
 {
     console.log("Loading pages start : ");
     for( var i in directoryObject){ // find all module in folder modules
         console.log("Loading "+directoryObject[i]+" start");
-        var config = require('../../pages/'+directoryObject[i]+'/conf.json'); // read confFile
+        var config = require(__dirname +'/../../pages/'+directoryObject[i]+'/conf.json'); // read confFile
 
-        var  page = require('../../pages/'+directoryObject[i]+'/'+config.controller+'.js'); //load specific pages ctrl
+        var  page = require(__dirname +'/../../pages/'+directoryObject[i]+'/'+config.controller+'.js'); //load specific pages ctrl
 
         /* GET home page. */
         router.get(config.routePath, function(req, res) {
