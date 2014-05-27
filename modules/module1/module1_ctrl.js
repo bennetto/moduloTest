@@ -4,7 +4,7 @@ return  module1 = function(){
     this.render = function()
     {
         var html = undefined;
-        ejs.renderFile('./modules/module1/module1.ejs',{ h1: 'modulo1' },function(err,htmlRender){
+        ejs.renderFile(__base+'/modules/module1/module1.ejs',{ h1: 'modulo1' },function(err,htmlRender){
             html=htmlRender;
         });
 
