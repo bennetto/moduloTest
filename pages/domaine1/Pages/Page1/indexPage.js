@@ -5,6 +5,5 @@ var module = require(__base+'/core/server/routeModule');
 
 exports.render = function(req, res)
 {
-
-    res.render(__base+'/pages/page1/index', { title: 'ModuloCMS',module:module });
+    res.render(__base+'/pages/domaine1/Pages/page1/index', { title: 'ModuloCMS',module:module });
 }

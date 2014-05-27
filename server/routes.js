@@ -10,7 +10,7 @@ router.get('/', function(req, res) {
     indexPage.render(req, res) ;
 });
 
-var page1 = require('./../pages/page1/indexPage');
+var page1 = require('././indexPage');
 /* GET home page. */
 router.get('/page1', function(req, res) {
     page1.render(req, res) ;

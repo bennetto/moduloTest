@@ -1,4 +1,8 @@
 {
+    "typePage" : "single",
+    "name":"page1",
+    "masterPage":"MasterPage",
+
     "ejs":"index.ejs",
     "controller":"indexPage",
     "routePath":"/page1"
